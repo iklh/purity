@@ -6,6 +6,8 @@
 
 主题仍在完善中，只是先发布预览。
 
+[点击](https://purity-preview.vercel.app)预览使用了该主题的静态网页。该网站为实际使用了该主题的 Typecho 程序生成的静态网页，与实际使用效果有出入，仅作静态预览主题之用，无动态功能。
+
 ## 预览
 
 ![screenshot1](screenshots/screenshot1.png)
