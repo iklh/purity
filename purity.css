@@ -1,0 +1,55 @@
+p {
+    text-align: justify;
+}
+
+div.post-description {
+    font-family: sans-serif;
+}
+
+.post-title {
+    font-family: sans-serif, "HarmonyOS Sans SC";
+}
+
+.brand-title-anchor {
+    color: #fff;
+    text-decoration:none;
+}
+
+h1.brand-title, h2.brand-tagline {
+    margin: 0.15em 0;
+    font-family: sans-serif, "HarmonyOS Sans SC";
+}
+
+.nav-item a.pure-button {
+    margin-top: 0.5em;
+    font-family: sans-serif, "HarmonyOS Sans SC";
+}
+
+.post-meta {
+line-height: 1.8em;
+}
+
+.post-date-sticker time {
+    margin: 0 0.1em;
+    padding: 0.2em 1em;
+    color: #fff;
+    background: #df2d4f;
+    font-size: 80%;
+}
+
+.post-category-sticker a {
+    margin: 0 0.1em;
+    padding: 0.2em 1em;
+    color: #fff;
+    background: #4d85d1;
+    font-size: 80%;
+    white-space: nowrap;
+}
+.post-tags-sticker a {
+    margin: 0 0.1em;
+    padding: 0.2em 1em;
+    color: #000;
+    background: #ffea85;
+    font-size: 80%;
+    white-space: nowrap;
+}
