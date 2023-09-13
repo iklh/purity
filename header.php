@@ -34,14 +34,9 @@
             <nav class="nav">
                 <ul class="nav-list">
                     <li class="nav-item">
-                        <?php \Widget\Contents\Page\Rows::alloc()->to($pages); ?>
-                        <?php while ($pages->next()): ?>
-                        <a class="pure-button"
-                            href="<?php $pages->permalink(); ?>"
-                            title="<?php $pages->title(); ?>"><?php $pages->title(); ?></a>
-                        <?php endwhile; ?>
-                    </li>
+                        <?php \Widget\Contents\Page\Rows::alloc()->to($pages); ?><?php while ($pages->next()): ?><a class="pure-button" href="<?php $pages->permalink(); ?>" title="<?php $pages->title(); ?>"><?php $pages->title(); ?></a><?php endwhile; ?></li>
                 </ul>
             </nav>
         </div>
     </div>
+
